@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + TS</title>
+  </head>
+  <body>
+    <script type="module" src="/src/main.ts"></script>
+    <div id="app">
+      <div id="modal" style="display: none">
+        <div>Modal title</div>
+        <div>This is modal content</div>
+        <div data-modaly-close>Close</div>
+      </div>
+    </div>
+    <button data-modaly-open="#app">Open Modal</button>
+  </body>
+</html>
